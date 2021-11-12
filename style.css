@@ -1,0 +1,225 @@
+canvas{
+    background-color: white;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    width: 2000%;
+}
+canvas{
+    background-color: white;
+    border: solid black 5px;
+    margin-left: -5px;
+    margin-right: -0px;
+}
+
+#couleurs{
+    width: 650px;
+    border: black solid 2px;
+    background-color: rgb(75, 75, 75);
+}
+
+#rouge{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin: 8px 10px 0px 10px;
+    border: red 3px solid;
+    
+}
+#rouge:hover{
+    background-color: rgba(255, 0, 0, 0.822);
+    border-color: black;
+    transition-duration: 300ms;
+}
+
+#vert{
+    width: 30px;
+    height: 30px;
+    background-color:green;
+    margin: 8px 10px 0px 10px;
+    border:green 3px solid;
+}
+#vert:hover{
+    background-color: rgba(6, 104, 6, 0.822);
+    border-color: black;
+    transition-duration: 300ms;
+}
+
+#bleu{
+    width: 30px;
+    height: 30px;
+    background-color:blue;
+    margin: 8px 10px 0px 10px;
+    border:blue 3px
+     solid;
+}
+#bleu:hover{
+    background-color: rgb(55, 128, 177);
+    border-color: black;
+    transition-duration: 300ms;
+}
+
+
+#rose{
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    margin: 8px 10px 0px 10px;
+    border:  pink 3px solid;
+
+}
+#rose:hover{
+    background-color: rgba(195, 99, 174, 0.822);
+    border-color: black;
+    transition-duration: 300ms;
+}
+
+#jaune{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    margin: 8px 10px 0px 10px;
+    border: yellow 3px solid;
+
+}
+#jaune:hover{
+    background-color: rgba(179, 176, 14, 0.822);
+    border-color: black;
+    transition-duration: 300ms;
+}
+
+#orange{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    margin: 8px 10px 0px 10px;
+    border: orange 3px solid;
+
+}
+#orange:hover{
+    background-color: rgba(216, 86, 0, 0.822);
+    border-color: black;
+    transition-duration: 300ms;
+}
+
+#marron{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    margin: 8px 10px 0px 10px;
+    border: brown 3px solid;
+
+}
+#marron:hover{
+    background-color: rgba(107, 27, 7, 0.822);
+    border-color: black;
+    transition-duration: 300ms;
+}
+
+#gris{
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    margin: 8px 10px 0px 10px;
+    border: grey 3px solid;
+
+}
+#gris:hover{
+    background-color: rgba(61, 61, 60, 0.822);
+    border-color: black;
+    transition-duration: 300ms;
+}
+
+#noir{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    margin: 10px 10px 0px 10px;
+    border: black 3px solid;
+}
+#noir:hover{
+    background-color: rgba(59, 57, 57, 0.822);
+    border-color: black;
+    transition-duration: 300ms;
+}
+
+#gomme{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(197, 195, 195);
+    margin: 0px 0px 18px 40px;
+    border: white 1px solid;
+    vertical-align: middle;
+}
+
+
+#outils{
+    width: 640px;
+    border: black solid 2px;
+    background-color: rgb(75, 75, 75);
+    padding-left: 10px ;
+    
+}
+
+#now{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 20px 0px 10px;
+    border: rgb(0, 0, 0) 5px solid;
+}
+
+#diam1{
+    
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 0px 0px 0px;
+    border: rgb(0, 0, 0) 3px solid;
+    text-align:center ;
+    border-radius: 30px;
+    
+}
+
+#diam2{
+ 
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 0px 0px 0px;
+    border: rgb(0, 0, 0) solid 3px;
+    text-align:center ;
+    border-radius: 30px;
+}
+
+#diam3{
+    
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 0px 0px 0px;
+    border: rgb(0, 0, 0) solid 3px ;
+    text-align:center ;
+    border-radius: 30px;
+}
+
+#diam4{
+
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 0px 0px 0px;
+    border: rgb(0, 0, 0) solid 3px ;
+    text-align:center ;
+    border-radius: 30px;
+}
+
+#btnDL{
+
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 0px 0px 0px;
+    border: rgb(0, 0, 0) solid 3px ;
+    text-align:center ;
+    border-radius: 30px;
+}
+
+p{
+    color: white;
+}
