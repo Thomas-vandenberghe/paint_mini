@@ -6,20 +6,20 @@ const DL = document.querySelector("#btnDL");
 toile.width = window.innerWidth -15 ;
 toile.height = window.innerHeight -200 ;
 
+// parametres des lignes déssinées
 ctx.strokeStyle = "black";
 ctx.linejoin = "round";
 ctx.lineCap = "round";
 ctx.lineWidth = 5;
 
-
-
 let dessine = false;
 let lastX = 0;
 let lastY = 0;
 
+// fonction téléchargement au clic
 DL.addEventListener("click", ()=>{
-// avoir un background blanc
-    ctx.globalCompositeOperation = 'destination-over';
+// avoir un background blanc quand on télécharge le fichier
+ctx.globalCompositeOperation = 'destination-over';
 ctx.fillStyle = "white";
 ctx.fillRect(0, 0, toile.width, toile.height);
 // pouvoir DL l'image
@@ -30,6 +30,8 @@ ctx.fillRect(0, 0, toile.width, toile.height);
     a.click();
     document.body.removeChild(a);
 })
+
+// les eventslistener de chaques boutons de couleur. Change la couleur sélectionnée au clic, et affiche la couleur actuelle  (Il doit probablement y avoir mieux à faire)
 rouge.addEventListener("click", () =>{
     ctx.strokeStyle = "red"
     now.style.backgroundColor= ctx.strokeStyle;
@@ -71,6 +73,7 @@ gomme.addEventListener("click", () =>{
     now.style.backgroundColor= ctx.strokeStyle;
 })
 
+// boutons de choix du diametre du trait.
 diam1.addEventListener("click", ()=>{
     ctx.lineWidth= 3
 })
@@ -83,14 +86,7 @@ diam3.addEventListener("click", ()=>{
 diam4.addEventListener("click", ()=>{
     ctx.lineWidth= 30
 })
-
-
-
-
-
-
-
-
+// fonction dessin, recupere les infos et les modifies en fonction du placement de la souris dans le canvas.
 function draw(e){
     if (!dessine) return;
     console.log(e);
@@ -102,8 +98,8 @@ function draw(e){
     lastY = e.offsetY;
 
 }
+// fait en sorte de déssiner uniquement quand le clic de la souris est enfoncé et dans le cadre.
 toile.addEventListener("mousedown",(e) =>{
-
  dessine = true;
  [lastX,lastY] = [e.offsetX, e.offsetY];
 });

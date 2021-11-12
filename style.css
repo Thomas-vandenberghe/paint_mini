@@ -214,7 +214,7 @@ canvas{
 
     height: 30px;
     background-color: rgb(255, 255, 255);
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 80px;
     border: rgb(0, 0, 0) solid 3px ;
     text-align:center ;
     border-radius: 30px;
