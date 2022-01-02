@@ -1,26 +1,40 @@
-canvas{
-    background-color: white;
+html{
+    margin:none;
+    padding: none;
+    width:100%
 }
+
+    
+canvas{
+    
+ }
 body{
     background-color: rgb(255, 255, 255);
-    width: 2000%;
+    width: 100%;
+    margin-left:  0px;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 canvas{
     background-color: white;
     border: solid black 5px;
-    margin-left: -5px;
-    margin-right: -0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    
 }
 
 #couleurs{
-    width: 650px;
+    width: auto;
     border: black solid 2px;
     background-color: rgb(75, 75, 75);
+    margin-left: 0px;
+    display: flex;
 }
 
 #rouge{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: red;
     margin: 8px 10px 0px 10px;
     border: red 3px solid;
@@ -33,8 +47,8 @@ canvas{
 }
 
 #vert{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color:green;
     margin: 8px 10px 0px 10px;
     border:green 3px solid;
@@ -46,8 +60,8 @@ canvas{
 }
 
 #bleu{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color:blue;
     margin: 8px 10px 0px 10px;
     border:blue 3px
@@ -61,8 +75,8 @@ canvas{
 
 
 #rose{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: pink;
     margin: 8px 10px 0px 10px;
     border:  pink 3px solid;
@@ -75,8 +89,8 @@ canvas{
 }
 
 #jaune{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: yellow;
     margin: 8px 10px 0px 10px;
     border: yellow 3px solid;
@@ -89,8 +103,8 @@ canvas{
 }
 
 #orange{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: orange;
     margin: 8px 10px 0px 10px;
     border: orange 3px solid;
@@ -103,8 +117,8 @@ canvas{
 }
 
 #marron{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: brown;
     margin: 8px 10px 0px 10px;
     border: brown 3px solid;
@@ -117,8 +131,8 @@ canvas{
 }
 
 #gris{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: grey;
     margin: 8px 10px 0px 10px;
     border: grey 3px solid;
@@ -131,10 +145,10 @@ canvas{
 }
 
 #noir{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: black;
-    margin: 10px 10px 0px 10px;
+    margin: 8px 10px 0px 10px;
     border: black 3px solid;
 }
 #noir:hover{
@@ -145,25 +159,26 @@ canvas{
 
 #gomme{
     width: 60px;
-    height: 30px;
+    height: 18px;
     background-color: rgb(197, 195, 195);
-    margin: 0px 0px 18px 40px;
+    margin: 10px 0px 10px 40px;
     border: white 1px solid;
-    vertical-align: middle;
+   
+    
 }
 
 
 #outils{
-    width: 640px;
+    width: auto;
     border: black solid 2px;
     background-color: rgb(75, 75, 75);
-    padding-left: 10px ;
-    
+    margin-left: 0px;
+    display: flex;
 }
 
 #now{
     width: 60px;
-    height: 30px;
+    height: 20px;
     background-color: rgb(255, 255, 255);
     margin: 0px 20px 0px 10px;
     border: rgb(0, 0, 0) 5px solid;
@@ -171,55 +186,69 @@ canvas{
 
 #diam1{
     
-    height: 30px;
+    height: 20px;
     background-color: rgb(255, 255, 255);
     margin: 0px 0px 0px 0px;
     border: rgb(0, 0, 0) 3px solid;
     text-align:center ;
-    border-radius: 30px;
+    border-radius: 20px;
     
 }
 
 #diam2{
  
-    height: 30px;
+    height: 20px;
     background-color: rgb(255, 255, 255);
     margin: 0px 0px 0px 0px;
     border: rgb(0, 0, 0) solid 3px;
     text-align:center ;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 #diam3{
     
-    height: 30px;
+    height: 20px;
     background-color: rgb(255, 255, 255);
     margin: 0px 0px 0px 0px;
     border: rgb(0, 0, 0) solid 3px ;
     text-align:center ;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 #diam4{
 
-    height: 30px;
+    height: 20px;
     background-color: rgb(255, 255, 255);
     margin: 0px 0px 0px 0px;
     border: rgb(0, 0, 0) solid 3px ;
     text-align:center ;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 #btnDL{
 
-    height: 30px;
+    height: auto;
     background-color: rgb(255, 255, 255);
-    margin: 0px 0px 0px 80px;
+    margin: 0px 0px 0px 0px;
     border: rgb(0, 0, 0) solid 3px ;
     text-align:center ;
-    border-radius: 30px;
+    border-radius: 20px;
+
+    
 }
 
 p{
     color: white;
+}
+
+
+@media screen and (min-width: 300px) {
+    header{
+        height: 100px;
+        background-image: url("paintBanner1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    
+    }
 }
